@@ -1,0 +1,29 @@
+﻿// Global using directives
+
+global using HRMS.Application.Authentication;
+global using HRMS.Application.Common.Models;
+global using HRMS.Application.Common.Results;
+global using HRMS.Application.Dtos.Department;
+global using HRMS.Application.Dtos.Attendance;
+global using HRMS.Application.Dtos.AdminDashboard;
+global using HRMS.Application.Dtos.Authentication;
+global using HRMS.Application.Dtos.Employee;
+global using HRMS.Application.Dtos.JobTitle;
+global using HRMS.Application.Dtos.Leave;
+global using HRMS.Application.Repositories;
+global using HRMS.Domain.Entities;
+global using HRMS.Domain.Constants;
+global using HRMS.Domain.Enums;
+global using HRMS.Infrastructure.Configuration;
+global using HRMS.Infrastructure.Caching;
+global using HRMS.Infrastructure.Data;
+global using HRMS.Infrastructure.Identity;
+global using HRMS.Infrastructure.Repositories;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.Caching.Memory;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;

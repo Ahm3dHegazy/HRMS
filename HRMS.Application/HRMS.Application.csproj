@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+        <ProjectReference Include="..\HRMS.Domain\HRMS.Domain.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Features\Department\Queries\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="16.3.0"/>
+        <PackageReference Include="FluentValidation" Version="12.2.0"/>
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.2.0"/>
+        <PackageReference Include="MediatR" Version="14.3.0"/>
+        <PackageReference Include="MediatR.Contracts" Version="2.0.1"/>
+    </ItemGroup>
+
+</Project>
